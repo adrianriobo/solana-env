@@ -2,6 +2,7 @@
 KIND_VERSION ?= 0.12.0 
 K8S_VERSION ?= 1.23.0
 ENV_NAME ?= solana-dev
+# ENV_IMAGE ?= localhost/solana-env:latest
 ENV_IMAGE ?= quay.io/ariobolo/solana-env:latest
 
 .PHONY: create-env
